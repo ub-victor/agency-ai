@@ -3,7 +3,7 @@ import Navbar from './components/Navbar'
 
 function App() {
     return (
-        <div className='dark:bg'>
+        <div className='dark:bg-black relative'>
             <Navbar/>
         </div>
     )
