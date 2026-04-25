@@ -6,7 +6,7 @@ function Navbar({theme, setTheme}) {
             <img src={theme === "dark" ? assets.logo_dark : assets.logo} className='w-32 sm:w-40' alt='logo'/>
             <div>
                 <a href="#" className='sm:hover:border-b'>Home</a>
-                <a href="#services" className='sm:hover:border-b'>Home</a>
+                <a href="#services" className='sm:hover:border-b'>Services</a>
             </div>
         </div>
         
